@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Easy Booking System\n"
+"POT-Creation-Date: 2013-11-08 10:59+0100\n"
+"PO-Revision-Date: 2013-11-08 11:06+0100\n"
+"Last-Translator: \n"
+"Language-Team: Natasha Lavail\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wc_ebs_options.php:23 woocommerce-easy-booking-system.php:25
+msgid "Settings"
+msgstr "Paramètres"
+
+#: wc_ebs_plugin.php:62
+msgid "Add booking option"
+msgstr "Produit en location"
+
+#: wc_ebs_plugin.php:116
+msgid " / day"
+msgstr "/ jour"
+
+#: wc_ebs_plugin.php:177
+msgid "Please choose valid dates"
+msgstr "Veuillez choisir des dates valides"
+
+#: wc_ebs_plugin.php:180
+msgid "Please choose two dates"
+msgstr "Veuillez indiquez deux dates"
+
+#: wc_ebs_plugin.php:266
+msgid "Select dates"
+msgstr "Choix des dates"
+
+#: options/wc_ebs_options.php:54
+msgid "Display information text"
+msgstr "Afficher un texte d'informations"
+
+#: options/wc_ebs_options.php:62
+msgid "Information text"
+msgstr "Texte d'informations"
+
+#: options/wc_ebs_options.php:70
+msgid "First date title"
+msgstr "Titre de la première date"
+
+#: options/wc_ebs_options.php:78
+msgid "Second date title"
+msgstr "Titre de la seconde date"
+
+#: options/wc_ebs_options.php:92
+msgid "WooCommerce Easy Booking System options"
+msgstr "WooCommerce Easy Booking System options"
+
+#: options/wc_ebs_options.php:109
+msgid ""
+"Make this plugin yours by choosing the different texts you want to display !"
+msgstr ""
+"Personnalisez le plugin en choisissant les différents textes que vous "
+"souhaitez afficher"
+
+#: options/wc_ebs_options.php:114
+msgid "Choose to display or not an information text before date inputs"
+msgstr "Afficher ou non un texte d'informations avant le choix des dates"
+
+#: options/wc_ebs_options.php:123
+msgid "Text displayed before the first date"
+msgstr "Texte à afficher avant la première date"
+
+#: options/wc_ebs_options.php:128
+msgid "Text displayed before the second date"
+msgstr "Texte à afficher avant la seconde date"
