@@ -57,8 +57,8 @@ class WC_EBS {
             // Checkbox
             woocommerce_wp_checkbox(array(
                 'id' => '_booking_option', 
-                'class' => 'wc_booking_option short', 
-                'wrapper_class' => 'show_if_simple', 
+                'class' => 'wc_booking_option checkbox',
+                'wrapper_class' => 'show_if_simple',
                 'label' => __( 'Add booking option', 'wc_ebs' )
             ));
 

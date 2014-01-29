@@ -2,7 +2,7 @@
 	$(document).ready(function() {
 
 		$('[class^="datepicker"]').pickadate({
-
+          	min: true,
 			onSet: function() {
 
 				var $start = $('.datepicker1').pickadate(),
