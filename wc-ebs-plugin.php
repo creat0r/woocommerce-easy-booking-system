@@ -1,6 +1,6 @@
 <?php
 
-class WC_EBS {
+class WC_EBS extends WC_AJAX {
 
     public function __construct() {
 
@@ -32,6 +32,12 @@ class WC_EBS {
 
             // Concatenated and minified script including datepick.js, legacy.js, picker.js and picker.date.js
             wp_enqueue_script( 'datepicker', plugins_url( '/js/pickadate.min.js', __FILE__ ), array('jquery'), '1.0', true);
+
+            /*wp_enqueue_script( 'picker', plugins_url( '/js/picker.js', __FILE__ ), array('jquery'), '1.0', true);
+            wp_enqueue_script( 'picker.date', plugins_url( '/js/picker.date.js', __FILE__ ), array('jquery'), '1.0', true);
+            wp_enqueue_script( 'legacy', plugins_url( '/js/legacy.js', __FILE__ ), array('jquery'), '1.0', true);
+            wp_enqueue_script( 'datepick', plugins_url( '/js/datepick.js', __FILE__ ), array('jquery'), '1.0', true);*/
+
             wp_enqueue_script( 'datepicker.language', plugins_url( '/js/translations/' . $lang . '.js', __FILE__ ), array('jquery'), '1.0', true);
 
             wp_register_style( 'picker', plugins_url('/css/default.min.css', __FILE__), true);
@@ -57,7 +63,7 @@ class WC_EBS {
             // Checkbox
             woocommerce_wp_checkbox(array(
                 'id' => '_booking_option', 
-                'class' => 'wc_booking_option checkbox',
+                'class' => 'wc_booking_option checkbox', 
                 'wrapper_class' => 'show_if_simple',
                 'label' => __( 'Add booking option', 'wc_ebs' )
             ));
@@ -161,7 +167,7 @@ class WC_EBS {
             $this->wc_ebs_update_product_meta( $product_id, $new_price, $start_date, $end_date );
 
             // Return fragments
-            woocommerce_get_refreshed_fragments();
+            $this->get_refreshed_fragments();
 
         }
 
